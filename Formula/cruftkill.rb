@@ -1,25 +1,25 @@
 class Cruftkill < Formula
   desc "Polyglot dev-cache reaper — find and delete node_modules, .venv, target, DerivedData and the rest of your build cruft from a fast terminal UI"
   homepage "https://github.com/xuanphamdev/cruftkill"
-  version "0.3.4"
+  version "0.3.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.4/cruftkill-aarch64-apple-darwin.tar.xz"
-      sha256 "60ad0e36d7fc4ccab3ff2e3eb2093386e089a47676293a56a92e150c8924c9e1"
+      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.5/cruftkill-aarch64-apple-darwin.tar.xz"
+      sha256 "1c61e47197937107c76970c60c51725ecaef131b8b9b65679dcd51566e84ebb1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.4/cruftkill-x86_64-apple-darwin.tar.xz"
-      sha256 "97408f11404a4bcb2b2ed9b33dfc29d386136767d9b19ea85e2c082c56aa3dd4"
+      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.5/cruftkill-x86_64-apple-darwin.tar.xz"
+      sha256 "22bc4e425c7f2e354eb683d8fd68179d0d26245003c22d42b9ef09cb39a3b2b2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.4/cruftkill-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "8407abae16cadb9f1e4115d82b7be2f7f30a6e2dec43de7dcc64ab4a6bd9eec6"
+      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.5/cruftkill-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8571507bf4bd0d2462e52e577ca6b5920cf102dff15c2a18514d57f1118cd033"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.4/cruftkill-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9a778eda1a4ab817c90403ec5b376936a0c6aa024af25c95e6d2aa8494741077"
+      url "https://github.com/xuanphamdev/cruftkill/releases/download/v0.3.5/cruftkill-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3a6068bfcc942e60e2aef48ce3035d7132e1a81a3683a3f0becd021dadb76542"
     end
   end
   license "MIT"
